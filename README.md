@@ -8,7 +8,7 @@ This repository contains the PyTorch implementation for our research paper prese
 ## Overview
 We present TMLP, a topology-aware MLP framework for multimodal recommendations. TMLP enhances scalability by integrating topological dependencies into MLPs and employs pruning strategy to improve robustness. 
 <p>
-<img src="./tmlp.png" width="650">
+<img src="./tmlp.png" width="750">
 </p>
 
 ## Data
