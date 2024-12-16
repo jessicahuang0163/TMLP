@@ -1,0 +1,23 @@
+embedding_size: 64
+feat_embed_dim: 64
+
+reg_weight: [0.0]
+num_fc_layers: 4
+hidden_dim: 512
+act_fn: 'tanh'
+v_dropout: 0
+t_dropout: 0
+alpha1: [1.2]
+alpha2: 0
+tau1: 1
+knn_k: 10
+n_ui_layers: 2
+adj_tensor_path: '../data/elec/adj_tensor_sampling_10.pt'
+mm_image_weight: 0.1
+
+learning_rate: [0.0001]
+dropout: 0.8
+aggr_mode: ['add']
+seed: [999, 1999, 2999, 3999, 4999]
+
+hyper_parameters: ["reg_weight", "alpha1", "learning_rate", "aggr_mode"]
