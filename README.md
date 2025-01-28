@@ -3,7 +3,7 @@
 This repository contains the PyTorch implementation for our research paper presented at AAAI 2025:
 
 **Title:** Beyond Graph Convolution: Multimodal Recommendation with Topology-aware MLPs  
-**Authors:** Junjie Huang, Jiarui Qin, Yong Yu, Weinan Zhang. [Paper]().  
+**Authors:** Junjie Huang, Jiarui Qin, Yong Yu, Weinan Zhang. [Paper](https://arxiv.org/abs/2412.11747).  
 
 ## Overview
 We present TMLP, a topology-aware MLP framework for multimodal recommendations. TMLP enhances scalability by integrating topological dependencies into MLPs and employs pruning strategy to improve robustness. 
@@ -22,3 +22,11 @@ The data includes text and image features extracted using Sentence-Transformers 
 You may specify other parameters in `src/configs/model/TMLP.yaml`.
 
 ## Citation
+```
+@article{huang2024beyond,
+  title={Beyond Graph Convolution: Multimodal Recommendation with Topology-aware MLPs},
+  author={Huang, Junjie and Qin, Jiarui and Yu, Yong and Zhang, Weinan},
+  journal={arXiv preprint arXiv:2412.11747},
+  year={2024}
+}
+```
